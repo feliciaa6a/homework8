@@ -1,0 +1,36 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:60vw;
+    margin: 0 auto;
+    background-color: rgb(211, 211, 211);
+}
+#chat{
+    width: 80%;
+    background-color: rgb(247, 247, 247);
+    max-height: 500px;
+    min-height: 200px;
+    overflow-y:scroll;
+    box-sizing: border-box;
+    padding: 10px 20px 10px 20px;
+}
+.chatUl{
+    display: flex;
+    width: 80%;
+    list-style: none;
+    flex-direction: column;
+}
+li{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    height: 50px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    
+}
